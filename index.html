@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Facebook - log in or sign up</title>
+  <title>Facebook Login UI – Demo</title>
 </head>
 <style>
     * {
@@ -133,10 +133,16 @@ body {
 
 </style>
 <body>
-
+  <!--
+Educational UI clone.
+No authentication, no backend, no data collection.
+-->
+  <div style="background:#fff3cd;color:#856404;padding:12px;text-align:center;font-weight:bold;">
+⚠️ Demo UI only. This is NOT Facebook. No data is collected.
+</div>
   <div class="container">
     <div class="left">
-      <h1>facebook</h1>
+      <h1>facebook ui</h1>
       <p>Facebook helps you connect and share<br>with the people in your life.</p>
     </div>
 
@@ -145,7 +151,7 @@ body {
         <input type="text" placeholder="Email address or phone number">
         <input type="password" placeholder="Password">
 
-        <button class="login-button">Log in</button>
+        <button class="login-button" disabled>Log in</button>
 
         <a href="#" class="forgot">Forgotten password?</a>
 
